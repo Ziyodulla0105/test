@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#top {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(2, 13, 82, 0.76);
+  color: #fff;
+}
+
+.col-2 img {
+  width: 29px;
+  height: 23px;
+}
+.col-2 #bayroq {
+  width: 33px;
+  height: 20px;
+}
+.col-2 .a1 {
+  padding: 8px;
+  margin-right: 5px;
+}
+
+#id {
+  background-color: transparent;
+  color: #fff;
+}
+
+.link1 {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link1:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.hoverbtn {
+  background-color: transparent;
+  color: white;
+  padding: 1px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  z-index: 75;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  width: 120px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: dodgerblue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: gainsboro;
+  border-left: 6px solid dodgerblue;
+}
+
+.show {
+  display: block;
+}
+
+#hh6 {
+  position: absolute;
+  transform: translateX(85px) translateY(-22px);
+}
+
+.dropbtn {
+  color: white;
+  background-color: transparent;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.header{
+  width: 100%;
+  left: 0;
+  z-index: -2;
+  position: absolute;
+  background-image: url(/img/qmii.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}.logocha img{
+  position: absolute;
+  transform: translateY(10px)translateX(-65px);
+  width: 58px;
+  height: 58px;
+  float: left;
+  margin-right: 10px;
+}
+.logocha{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+.logocha:hover{
+  color: #fff;
+  text-decoration: underline;
+}
+.header ul {
+  position: absolute;
+  z-index: 99;
+}
+.header ul li {
+  display: inline-block;
+}
+.header ul li:hover {
+  background-color: #222;
+}
+.header ul li:hover ul {
+  display: block;
+}
+.header ul li ul {
+  position: absolute;
+  width: 200px;
+  background-color: #222;
+  display: none;
+  padding: 0;
+}
+.header ul li ul li {
+  display: block;
+  color: #fff;
+  padding: 0 15px;
+  border-left: 5px solid #222;
+}
+.header ul li ul li:hover {
+  background-color: #000;
+  border-left-color: #fff;
+}
+.header ul li a {
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+}
+.carousel-item img {
+  width: 70%;
+}
+.slide-caption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100%;
+  background-color: #314573;
+  padding: 20px;
+  color: #fff;
+}
+
+.middle {
+  background-color: #ddd;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  transform: translateY(463px);
+}
+.middle ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+.middle ul li {
+  display: inline-block;
+}
+.middle ul li a {
+  transform: translateY(10px);
+  display: block;
+  padding:3px;
+  padding: 10x;
+  color: #333;
+  text-decoration: none;
+}
+.middle ul li a:hover {
+  text-decoration: underline;
+}
+.middle ul li a::after {
+  content: "";
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+}
+.carousel-control-prev-icon{
+position: absolute;
+transform: translateY(160px)translateX(700px);
+}
+.carousel-control-next-icon{
+  position: absolute;
+  transform: translateY(160px)translateX(30px);
+}
+.col3{
+  position: absolute;
+  transform: translateY(-390px)translateX(835px);
+  z-index: 999999;
+  background-color: #6477a5; 
+}
